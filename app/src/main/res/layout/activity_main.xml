@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:background="@drawable/agung1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="55dp"
+                android:src="@drawable/aeenje" />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="230dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="130dp"
+                    android:text="Agung Prabowo"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/jago"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:text="Android &amp; Web Programmer :)"
+                    android:textColor="#fff"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Profile"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="583dp"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/button_border"
+                android:drawableTop="@drawable/school_"
+                android:padding="2dp"
+                android:text="pendidikan"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/button_border"
+                android:drawableTop="@drawable/port_"
+                android:padding="2dp"
+                android:text="Portfolio"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button1"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_border"
+                android:drawableTop="@drawable/ex_"
+                android:paddingBottom="7dp"
+                android:paddingRight="6dp"
+                android:paddingTop="10dp"
+                android:text="\n  extrakulikuler"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button3"
+                android:layout_alignLeft="@+id/button2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/button2"
+                android:layout_alignTop="@+id/button3"
+                android:background="@drawable/button_border"
+                android:drawableTop="@drawable/exp_"
+                android:paddingBottom="10dp"
+                android:paddingRight="6dp"
+                android:paddingTop="10dp"
+                android:text="pengalaman"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/button6"
+                android:layout_alignEnd="@+id/button3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/button3"
+                android:layout_alignTop="@+id/button6"
+                android:background="@drawable/button_border"
+                android:drawableTop="@drawable/sikil_"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="6dp"
+                android:paddingTop="38dp"
+                android:text="  \n\n KEAHLIAN"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/button4"
+                android:layout_alignStart="@+id/button4"
+                android:layout_below="@+id/button4"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/button_border"
+                android:drawableTop="@drawable/orga_"
+                android:paddingBottom="10dp"
+                android:paddingRight="6dp"
+                android:paddingTop="10dp"
+                android:text="   Organisasi"
+                android:textColor="#000" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="-15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/off" />
+
+            <TextView
+                android:id="@+id/keluar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:text="Keluar"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="Copyright \u00a9 2017, Agung Prabowo"
+            android:textColor="#c2333333"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</ScrollView>
